@@ -116,10 +116,6 @@ QCOM_BT_USE_SMD_TTY := true
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# Charger
-BOARD_CHARGER_ENABLE_SUSPEND := true
-BOARD_CHARGER_DISABLE_INIT_BLANK := true
-
 # CM Hardware
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
 BOARD_USES_CYANOGEN_HARDWARE := true
@@ -159,8 +155,6 @@ TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_z2pro
-TARGET_RECOVERY_DEVICE_MODULES := libinit_z2pro
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
 # Keystore
